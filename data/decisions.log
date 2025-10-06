@@ -1,0 +1,96 @@
+[2025-10-06T03:49:01Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T03:50:24Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T03:52:23Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:21:56Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:23:59Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:24:07Z] INFO:  Short-term: clear => clear (1 kali)
+[2025-10-06T04:24:17Z] INFO:  Short-term: clear => clear (2 kali)
+[2025-10-06T04:25:13Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:27:13Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:32:29Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:45:00Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T04:58:39Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:00:12Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:06:02Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:06:02Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:08:14Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:08:14Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:08:58Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:08:58Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:09:08Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:09:08Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:09:19Z] INFO:  Short-term: ping ke 1.1.1.1 => ping 1.1.1.1 (1 kali)
+[2025-10-06T05:12:38Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:12:38Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:12:53Z] INFO:  Short-term: ping ke 1.1.1.1 => ping 1.1.1.1 (1 kali)
+[2025-10-06T05:13:05Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:13:05Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:23:50Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:23:50Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:23:58Z] INFO:  Short-term: ping 1.1.1.1 => ping 1.1.1.1 (1 kali)
+[2025-10-06T05:24:47Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:24:47Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:24:58Z] INFO:  Short-term: ping 1.1.1.1 => ping 1.1.1.1 (1 kali)
+[2025-10-06T05:25:47Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:25:47Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:25:56Z] INFO:  Short-term: ping 1.1.1.1 => ping -t 4 1.1.1.1 (1 kali)
+[2025-10-06T05:26:17Z] INFO:  Short-term: ping 8.8.8.8 => ping -t 2 8.8.8.8 (1 kali)
+[2025-10-06T05:27:16Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:27:16Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:28:16Z] INFO:  Short-term: ping 8.8.8.8 => ping -c 2 8.8.8.8 (1 kali)
+[2025-10-06T05:28:59Z] INFO:  Promosi ke MID memory: ping 8.8.8.8
+[2025-10-06T05:29:07Z] INFO:  Promosi ke MID memory: ping 8.8.8.8
+[2025-10-06T05:29:27Z] INFO:  Promosi ke MID memory: ping 8.8.8.8
+[2025-10-06T05:58:05Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T05:58:05Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T05:58:16Z] INFO:  Promosi ke MID memory: ping 8.8.8.8
+[2025-10-06T07:04:12Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:04:12Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:04:40Z] INFO:  Short-term: list- => n (1 kali)
+[2025-10-06T07:05:07Z] INFO:  Short-term: ping ke 1.1.1.1 => ping -c 2 8.8.8.8 (1 kali)
+[2025-10-06T07:12:03Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:12:03Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:12:17Z] INFO:  Short-term: ping ke 1.1.1.1 => ping -c 2 1.1.1.1 (1 kali)
+[2025-10-06T07:12:43Z] INFO:  Short-term: ping ke 8.8.8.8 => ping 8.8.8.8 (1 kali)
+[2025-10-06T07:13:39Z] INFO:  Short-term: ping ke 9.9.9.9 => ping -c 2 9.9.9.9 (1 kali)
+[2025-10-06T07:24:44Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:24:44Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:25:12Z] INFO:  Short-term: ping ke 8.8.8.8 => ping -c 2 8.8.8.8 (1 kali)
+[2025-10-06T07:25:20Z] INFO:  🧩 Pola baru otomatis dibuat: ^ping ke ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)$ => ping -c 2 \2
+[2025-10-06T07:32:38Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:32:38Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:32:38Z] INFO:  Pola dimuat: 1 pola.
+[2025-10-06T07:32:48Z] INFO:  Short-term: ping ke 8.8.8.8 => > ping -c 2  (1 kali)
+[2025-10-06T07:47:56Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:47:56Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:47:56Z] INFO:  Pola dimuat: 1 pola.
+[2025-10-06T07:48:05Z] INFO:  Short-term: ping ke 8.8.8.8 => > ping -c 2 8.8.8.8 (1 kali)
+[2025-10-06T07:55:59Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:55:59Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:55:59Z] INFO:  Pola dimuat: 0 pola.
+[2025-10-06T07:56:12Z] INFO:  Short-term: ping ke 8.8.8.8 => ping -c 3 8.8.8.8 (1 kali)
+[2025-10-06T07:56:15Z] INFO:  🧩 Pola baru otomatis dibuat: ^ping ke ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)$ => ping -c 3 \1
+[2025-10-06T07:56:40Z] INFO:  Short-term: ping ke 8.8.4.4 => n (1 kali)
+[2025-10-06T07:56:44Z] INFO:  Pola '^ping ke ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)$' sudah ada, tidak ditambah ulang.
+[2025-10-06T07:58:21Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T07:58:21Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T07:58:21Z] INFO:  Pola dimuat: 1 pola.
+[2025-10-06T07:58:33Z] INFO:  Short-term: ping 1.1.1.1 => ping -c 1 1.1.1.1 (1 kali)
+[2025-10-06T07:58:36Z] INFO:  🧩 Pola baru otomatis dibuat: ^ping ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)$ => ping -c 1 \1
+[2025-10-06T08:04:59Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T08:04:59Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T08:04:59Z] INFO:  Pola dimuat: 2 pola.
+[2025-10-06T08:05:11Z] INFO:  Short-term: ping 1.1.1.1 => > ping -c 1 1.1.1.1 (1 kali)
+[2025-10-06T08:09:11Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T08:09:11Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T08:09:11Z] INFO:  Pola dimuat: 2 pola.
+[2025-10-06T08:09:20Z] INFO:  Short-term: ping 1.1.1.1 =>  ping -c 1 1.1.1.1 (1 kali)
+[2025-10-06T08:14:09Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T08:14:09Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T08:14:09Z] INFO:  Pola dimuat: 2 pola.
+[2025-10-06T08:19:05Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T08:19:05Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T08:19:05Z] INFO:  Pola dimuat: 2 pola.
+[2025-10-06T08:19:43Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T08:19:43Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T08:19:43Z] INFO:  Pola dimuat: 2 pola.

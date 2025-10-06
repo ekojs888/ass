@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Entrypoint utama Aksan Smart Shell v8 (Portable)
+ASS_LIB="${ASS_LIB:-$(dirname "$0")/../lib}"
+ASS_CONF="${ASS_CONF:-$(dirname "$0")/../config}"
+ASS_DATA="${ASS_DATA:-$(dirname "$0")/../data}"
+
+# Muat semua modul utama
+for f in util io memory templates decision cli assoc reward context context_stack suggest; do
+  source "$ASS_LIB/$f.sh" || { echo "Gagal memuat modul $f"; exit 1; }
+done
+
+tpl_load
+mem_load_all
+rule_load
+load_reflex_conf
+context_load
+reward_load
+
+pattern_load
+
+context_stack_init
+
+echo "🤖 Aksan Smart Shell v8 (Portable) siap digunakan."
+echo "Ketik 'bantuan' untuk daftar perintah."
+cli_loop
