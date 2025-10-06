@@ -113,3 +113,60 @@
 [2025-10-06T08:36:49Z] INFO:  🧩 Pola baru otomatis dibuat: ^cek (.+)$ => ping -c 5 \1
 [2025-10-06T08:37:15Z] INFO:  Short-term: cek internet => ping -c 5 google.com (1 kali)
 [2025-10-06T08:37:19Z] INFO:  Pola '^cek (.+)$' sudah ada, tidak ditambah ulang.
+[2025-10-06T21:26:59Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T21:26:59Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T21:26:59Z] INFO:  Pola dimuat: 4 pola.
+[2025-10-06T21:27:50Z] INFO:  Short-term: tampilkan ip => ip a (1 kali)
+[2025-10-06T21:27:51Z] INFO:  🧩 Pola baru otomatis dibuat: ^tampilkan (.+)$ => ip \1
+[2025-10-06T21:29:02Z] INFO:  Promosi ke MID memory: tampilkan ip
+[2025-10-06T21:34:05Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T21:34:05Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T21:34:05Z] INFO:  Pola dimuat: 5 pola.
+[2025-10-06T21:35:46Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T21:35:46Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T21:35:46Z] INFO:  Pola dimuat: 5 pola.
+[2025-10-06T21:38:48Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T21:38:48Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T21:38:48Z] INFO:  Pola dimuat: 5 pola.
+[2025-10-06T22:01:23Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T22:01:23Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T22:01:23Z] INFO:  🧠 Pola dimuat: 5 pola.
+[2025-10-06T22:01:27Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:01:27Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+ip$ → ip a
+[2025-10-06T22:02:36Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:02:36Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+ip$ → ip a
+[2025-10-06T22:02:50Z] INFO:  Template baru: cek ip => ip a
+[2025-10-06T22:02:58Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:02:58Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+ip$ → ip a
+[2025-10-06T22:03:06Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:03:06Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+ip$ → ip a
+[2025-10-06T22:05:20Z] INFO:  Template manual dimuat: 3 entri.
+[2025-10-06T22:05:20Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T22:05:20Z] INFO:  🧠 Pola dimuat: 6 pola.
+[2025-10-06T22:05:42Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:05:42Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+folder$ → find . -type d -iname "*\\1*"
+[2025-10-06T22:06:28Z] WARN:  Template tidak valid: key atau command kosong
+[2025-10-06T22:06:38Z] WARN:  ❌ Pola gagal. Sistem mencoba menganalisa ulang konteks...
+[2025-10-06T22:06:38Z] INFO:  🤖 Pola diperbarui otomatis: ^cek[[:space:]]+folder$ → find . -type d -iname "*\\1*"
+[2025-10-06T22:07:15Z] INFO:  Template baru: cek folder abc => find . -type d -iname "*abc*"
+[2025-10-06T22:20:09Z] INFO:  Template manual dimuat: 4 entri.
+[2025-10-06T22:20:09Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T22:20:09Z] INFO:  🧠 Pola dimuat: 7 pola.
+[2025-10-06T22:20:17Z] INFO:  ✅ Penggunaan pola 'cek ip' berhasil, memperkuat memori...
+[2025-10-06T22:20:54Z] INFO:  ✅ Penggunaan pola 'cek ip' berhasil, memperkuat memori...
+[2025-10-06T22:20:54Z] INFO:  ⬆️ Pola 'cek ip' dipromosikan ke MID memory.
+[2025-10-06T22:21:00Z] INFO:  Promosi ke MID memory: cek ip
+[2025-10-06T22:21:00Z] INFO:  ✅ Penggunaan pola 'cek ip' berhasil, memperkuat memori...
+[2025-10-06T22:21:00Z] INFO:  ⬆️ Pola 'cek ip' dipromosikan ke MID memory.
+[2025-10-06T22:21:08Z] INFO:  Promosi ke MID memory: cek ip
+[2025-10-06T22:21:39Z] INFO:  🧠 Pola baru disimpan di short memory: ping → n
+[2025-10-06T22:22:00Z] INFO:  🧠 Pola baru disimpan di short memory: y → n
+[2025-10-06T22:22:26Z] INFO:  Template baru: ping => ping
+[2025-10-06T22:22:26Z] INFO:  ✏️ Edit mode — menyimpan hasil baru di short memory.
+[2025-10-06T22:22:26Z] INFO:  🧠 Pola baru disimpan di short memory: ping → n
+[2025-10-06T22:22:42Z] INFO:  ✅ Penggunaan pola 'ping 1.1.1.1' berhasil, memperkuat memori...
+[2025-10-06T22:39:12Z] INFO:  Template manual dimuat: 5 entri.
+[2025-10-06T22:39:12Z] INFO:  Memori dimuat (short kosong, mid/long aktif).
+[2025-10-06T22:39:12Z] INFO:  Pola dimuat: 7 pola.
+[2025-10-06T22:39:26Z] INFO:  Short-term: ping google.com => ping -c 4 google.com (1 kali)
+[2025-10-06T22:39:30Z] INFO:  🧩 Pola baru otomatis dibuat: ^ping (.+)$ => ping -c 4 \1

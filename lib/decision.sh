@@ -8,8 +8,8 @@ source "$ASS_LIB/templates.sh"
 source "$ASS_LIB/context.sh"
 source "$ASS_LIB/context_stack.sh"
 source "$ASS_LIB/reward.sh"
-source "$ASS_LIB/suggest.sh"
 source "$ASS_LIB/assoc.sh"
+source "$ASS_LIB/pattern.sh"
 
 rule_load() { [[ -f "${ASS_CONF}/rules.conf" ]] || touch "${ASS_CONF}/rules.conf"; }
 
@@ -63,41 +63,23 @@ decide_and_execute() {
     layer="short"
     cmd="${MEM_SHORT[$input]}"
   else
-    layer="short"
+    # =======================================================
+    # 🔍 1️⃣ Coba deteksi pola (pattern recognition)
+    # =======================================================
+    local pattern_cmd
+    pattern_cmd="$(pattern_match "$input")"
+
+    pattern_cmd="$(_trim "$pattern_cmd")"
+    pattern_cmd="${pattern_cmd#>}"
+
+    echo "input : $input";
+    echo "pattern cmd : $pattern_cmd";
+    
+    if [[ -n "$pattern_cmd" ]]; then
+      cmd=$pattern_cmd;
+      layer="pola"
+    fi
   fi
-
-
-  # =======================================================
-  # 🔍 1️⃣ Coba deteksi pola (pattern recognition)
-  # =======================================================
-  local pattern_cmd
-  pattern_cmd="$(pattern_match "$input")"
-
-  pattern_cmd="$(_trim "$pattern_cmd")"
-  pattern_cmd="${pattern_cmd#>}"
-
-  echo "input : $input";
-  echo "pattern cmd : $pattern_cmd";
-  
-  if [[ -n "$pattern_cmd" ]]; then
-    cmd=$pattern_cmd;
-  fi
-
-  # if [[ -n "$pattern_cmd" ]]; then
-  #   echo "🧩 Pola dikenali: '$input' → ${pattern_cmd}"
-  #   read -rp "Jalankan perintah ini? (y/n): " ans
-  #   ans="${ans,,}"
-  #   if [[ "$ans" == "y" || -z "$ans" ]]; then
-  #     bash -ic "$pattern_cmd"
-  #     reward_update "$input" $?
-  #     mem_put_short "$input" "$pattern_cmd"
-  #     context_stack_push "$input" "$pattern_cmd" "$(context_infer_topic "$input")"
-  #     suggest_next_action "$(context_stack_topic)"
-  #   else
-  #     echo "Batal."
-  #   fi
-  #   return
-  # fi
 
 
   # -----------------------------------------------------------
@@ -150,6 +132,8 @@ decide_and_execute() {
   read -rp "Jalankan? (y/e/n): " act
   act="${act,,}"
 
+  pattern_feedback "$input" "$act"
+
   case "$act" in
     y | '')
       bash -ic "$cmd"
@@ -160,7 +144,7 @@ decide_and_execute() {
       mem_promote_check "$input"
 
       context_stack_push "$input" "$cmd" "$(context_infer_topic "$input")"
-      suggest_next_action "$(context_stack_topic)"
+      
       ;;
     e)
       read -rp "Perintah baru: " new
